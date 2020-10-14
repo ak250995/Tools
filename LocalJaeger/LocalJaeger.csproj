@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="JaegerBins" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Makaretu.Dns" Version="2.0.1" />
+      <PackageReference Include="Makaretu.Dns.Multicast" Version="0.27.0" />
+    </ItemGroup>
+
+</Project>
